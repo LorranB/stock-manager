@@ -1,0 +1,408 @@
+{
+  "POCO C71 3GB RAM 64GB Preto": {
+    "chave": "POCO C71 3GB RAM 64GB Preto",
+    "nome": "POCO C71 3GB RAM 64GB Preto",
+    "estoque": 2.0,
+    "custo": 447.31,
+    "venda": 500.0
+  },
+  "POCO C81 Pro 4GB RAM 256GB Preto": {
+    "chave": "POCO C81 Pro 4GB RAM 256GB Preto",
+    "nome": "POCO C81 Pro 4GB RAM 256GB Preto",
+    "estoque": 6.0,
+    "custo": 778.77,
+    "venda": 830.0
+  },
+  "POCO C85 6GB RAM 128GB Verde": {
+    "chave": "POCO C85 6GB RAM 128GB Verde",
+    "nome": "POCO C85 6GB RAM 128GB Verde",
+    "estoque": 3.0,
+    "custo": 661.13,
+    "venda": 710.0
+  },
+  "POCO C85 6GB RAM 128GB Preto": {
+    "chave": "POCO C85 6GB RAM 128GB Preto",
+    "nome": "POCO C85 6GB RAM 128GB Preto",
+    "estoque": 8.0,
+    "custo": 661.13,
+    "venda": 710.0
+  },
+  "POCO C85 8GB RAM 256GB Preto": {
+    "chave": "POCO C85 8GB RAM 256GB Preto",
+    "nome": "POCO C85 8GB RAM 256GB Preto",
+    "estoque": 0.0,
+    "custo": 782.23,
+    "venda": 830.0
+  },
+  "POCO C85 8GB RAM 256GB Verde": {
+    "chave": "POCO C85 8GB RAM 256GB Verde",
+    "nome": "POCO C85 8GB RAM 256GB Verde",
+    "estoque": 0.0,
+    "custo": 782.23,
+    "venda": 830.0
+  },
+  "POCO M7 8GB RAM 256GB Preto": {
+    "chave": "POCO M7 8GB RAM 256GB Preto",
+    "nome": "POCO M7 8GB RAM 256GB Preto",
+    "estoque": 0.0,
+    "custo": 850.45,
+    "venda": 900.0
+  },
+  "POCO M8 5G 8GB RAM 512GB Preto": {
+    "chave": "POCO M8 5G 8GB RAM 512GB Preto",
+    "nome": "POCO M8 5G 8GB RAM 512GB Preto",
+    "estoque": 4.0,
+    "custo": 1581.01,
+    "venda": 1600.0
+  },
+  "POCO M8 5G 8GB RAM 512GB Prata": {
+    "chave": "POCO M8 5G 8GB RAM 512GB Prata",
+    "nome": "POCO M8 5G 8GB RAM 512GB Prata",
+    "estoque": 0.0,
+    "custo": 1581.01,
+    "venda": 1600.0
+  },
+  "POCO Pad M1 8GB RAM 256GB Azul": {
+    "chave": "POCO Pad M1 8GB RAM 256GB Azul",
+    "nome": "POCO Pad M1 8GB RAM 256GB Azul",
+    "estoque": 0.0,
+    "custo": 1538.01,
+    "venda": 1680.0
+  },
+  "POCO Pad M1 8GB RAM 256GB Cinza": {
+    "chave": "POCO Pad M1 8GB RAM 256GB Cinza",
+    "nome": "POCO Pad M1 8GB RAM 256GB Cinza",
+    "estoque": 4.0,
+    "custo": 1538.01,
+    "venda": 1680.0
+  },
+  "POCO X7 8GB RAM 256GB Verde": {
+    "chave": "POCO X7 8GB RAM 256GB Verde",
+    "nome": "POCO X7 8GB RAM 256GB Verde",
+    "estoque": 0.0,
+    "custo": 1375.74,
+    "venda": 1460.0
+  },
+  "POCO X7 PRO 8GB RAM 256GB Preto": {
+    "chave": "POCO X7 PRO 8GB RAM 256GB Preto",
+    "nome": "POCO X7 PRO 8GB RAM 256GB Preto",
+    "estoque": 1.0,
+    "custo": 1862.89,
+    "venda": 1900.0
+  },
+  "POCO X8 Pro 8GB RAM 512GB Preto": {
+    "chave": "POCO X8 Pro 8GB RAM 512GB Preto",
+    "nome": "POCO X8 Pro 8GB RAM 512GB Preto",
+    "estoque": 0.0,
+    "custo": 2026.25,
+    "venda": 2100.0
+  },
+  "POCO X8 Pro 8GB RAM 512GB Branco": {
+    "chave": "POCO X8 Pro 8GB RAM 512GB Branco",
+    "nome": "POCO X8 Pro 8GB RAM 512GB Branco",
+    "estoque": 0.0,
+    "custo": 2026.25,
+    "venda": 2100.0
+  },
+  "POCO X8 Pro 8GB RAM 512GB Verde": {
+    "chave": "POCO X8 Pro 8GB RAM 512GB Verde",
+    "nome": "POCO X8 Pro 8GB RAM 512GB Verde",
+    "estoque": 0.0,
+    "custo": 2026.25,
+    "venda": 2100.0
+  },
+  "Poco X8 PRO MAX 12GB RAM 256 GB Azul": {
+    "chave": "Poco X8 PRO MAX 12GB RAM 256 GB Azul",
+    "nome": "Poco X8 PRO MAX 12GB RAM 256 GB Azul",
+    "estoque": 2.0,
+    "custo": 2572.69,
+    "venda": 2750.0
+  },
+  "Poco X8 PRO MAX 12GB RAM 256 GB Preto": {
+    "chave": "Poco X8 PRO MAX 12GB RAM 256 GB Preto",
+    "nome": "Poco X8 PRO MAX 12GB RAM 256 GB Preto",
+    "estoque": 2.0,
+    "custo": 2572.69,
+    "venda": 2750.0
+  },
+  "Realme C63 6GB RAM 128GB Azul": {
+    "chave": "Realme C63 6GB RAM 128GB Azul",
+    "nome": "Realme C63 6GB RAM 128GB Azul",
+    "estoque": 0.0,
+    "custo": 584.49,
+    "venda": 700.0
+  },
+  "Realme C71 8GB RAM 256GB Branco": {
+    "chave": "Realme C71 8GB RAM 256GB Branco",
+    "nome": "Realme C71 8GB RAM 256GB Branco",
+    "estoque": 0.0,
+    "custo": 883.82,
+    "venda": 930.0
+  },
+  "Realme C71 8GB RAM 256GB Verde": {
+    "chave": "Realme C71 8GB RAM 256GB Verde",
+    "nome": "Realme C71 8GB RAM 256GB Verde",
+    "estoque": 2.0,
+    "custo": 883.82,
+    "venda": 930.0
+  },
+  "Realme C75 8GB RAM 128GB Preto": {
+    "chave": "Realme C75 8GB RAM 128GB Preto",
+    "nome": "Realme C75 8GB RAM 128GB Preto",
+    "estoque": 3.0,
+    "custo": 838.61,
+    "venda": 1050.0
+  },
+  "Realme C75X 6GB RAM 128GB Azul": {
+    "chave": "Realme C75X 6GB RAM 128GB Azul",
+    "nome": "Realme C75X 6GB RAM 128GB Azul",
+    "estoque": 2.0,
+    "custo": 743.31,
+    "venda": 910.0
+  },
+  "Realme Note 50 3GB RAM 64GB Preto": {
+    "chave": "Realme Note 50 3GB RAM 64GB Preto",
+    "nome": "Realme Note 50 3GB RAM 64GB Preto",
+    "estoque": 6.0,
+    "custo": 471.69,
+    "venda": 550.0
+  },
+  "Realme Note 60X 4GB RAM 128GB Preto": {
+    "chave": "Realme Note 60X 4GB RAM 128GB Preto",
+    "nome": "Realme Note 60X 4GB RAM 128GB Preto",
+    "estoque": 6.0,
+    "custo": 591.21,
+    "venda": 610.0
+  },
+  "Redmi 13C 8GB 256GB Azul": {
+    "chave": "Redmi 13C 8GB 256GB Azul",
+    "nome": "Redmi 13C 8GB 256GB Azul",
+    "estoque": 0.0,
+    "custo": 583.0,
+    "venda": 750.0
+  },
+  "Redmi 13C 8GB 256GB Branco": {
+    "chave": "Redmi 13C 8GB 256GB Branco",
+    "nome": "Redmi 13C 8GB 256GB Branco",
+    "estoque": 2.0,
+    "custo": 583.0,
+    "venda": 750.0
+  },
+  "Redmi 14C 6GB RAM 128GB Preto": {
+    "chave": "Redmi 14C 6GB RAM 128GB Preto",
+    "nome": "Redmi 14C 6GB RAM 128GB Preto",
+    "estoque": 0.0,
+    "custo": 553.16,
+    "venda": 730.0
+  },
+  "Redmi 14C 8GB RAM 256GB Chines Preto": {
+    "chave": "Redmi 14C 8GB RAM 256GB Chines Preto",
+    "nome": "Redmi 14C 8GB RAM 256GB Chines Preto",
+    "estoque": 0.0,
+    "custo": 619.16,
+    "venda": 780.0
+  },
+  "Redmi 15 6GB RAM 128GB Púrpura": {
+    "chave": "Redmi 15 6GB RAM 128GB Púrpura",
+    "nome": "Redmi 15 6GB RAM 128GB Púrpura",
+    "estoque": 0.0,
+    "custo": 749.34,
+    "venda": 800.0
+  },
+  "Redmi 15 6GB RAM 128GB Cinza": {
+    "chave": "Redmi 15 6GB RAM 128GB Cinza",
+    "nome": "Redmi 15 6GB RAM 128GB Cinza",
+    "estoque": 1.0,
+    "custo": 749.34,
+    "venda": 800.0
+  },
+  "Redmi 15 8GB RAM 256GB Preto": {
+    "chave": "Redmi 15 8GB RAM 256GB Preto",
+    "nome": "Redmi 15 8GB RAM 256GB Preto",
+    "estoque": 0.0,
+    "custo": 870.0,
+    "venda": 940.0
+  },
+  "Redmi 15C 4GB RAM 256GB Preto": {
+    "chave": "Redmi 15C 4GB RAM 256GB Preto",
+    "nome": "Redmi 15C 4GB RAM 256GB Preto",
+    "estoque": 7.0,
+    "custo": 706.27,
+    "venda": 770.0
+  },
+  "Redmi 15C 8GB RAM 256GB Preto": {
+    "chave": "Redmi 15C 8GB RAM 256GB Preto",
+    "nome": "Redmi 15C 8GB RAM 256GB Preto",
+    "estoque": 4.0,
+    "custo": 798.53,
+    "venda": 840.0
+  },
+  "Redmi A5 3GB RAM 64GB Azul": {
+    "chave": "Redmi A5 3GB RAM 64GB Azul",
+    "nome": "Redmi A5 3GB RAM 64GB Azul",
+    "estoque": 0.0,
+    "custo": 470.2,
+    "venda": 500.0
+  },
+  "Redmi A5 3GB RAM 64GB Dourado": {
+    "chave": "Redmi A5 3GB RAM 64GB Dourado",
+    "nome": "Redmi A5 3GB RAM 64GB Dourado",
+    "estoque": 2.0,
+    "custo": 470.2,
+    "venda": 500.0
+  },
+  "Redmi A5 4GB RAM 128GB Verde": {
+    "chave": "Redmi A5 4GB RAM 128GB Verde",
+    "nome": "Redmi A5 4GB RAM 128GB Verde",
+    "estoque": 2.0,
+    "custo": 594.04,
+    "venda": 635.0
+  },
+  "Redmi A5 4GB RAM 128GB Preto": {
+    "chave": "Redmi A5 4GB RAM 128GB Preto",
+    "nome": "Redmi A5 4GB RAM 128GB Preto",
+    "estoque": 4.0,
+    "custo": 594.04,
+    "venda": 635.0
+  },
+  "Redmi Note 14 5G 12GB RAM 512GB Verde": {
+    "chave": "Redmi Note 14 5G 12GB RAM 512GB Verde",
+    "nome": "Redmi Note 14 5G 12GB RAM 512GB Verde",
+    "estoque": 0.0,
+    "custo": 1339.42,
+    "venda": 1500.0
+  },
+  "Redmi Note 14 5G 8GB RAM 256GB Preto": {
+    "chave": "Redmi Note 14 5G 8GB RAM 256GB Preto",
+    "nome": "Redmi Note 14 5G 8GB RAM 256GB Preto",
+    "estoque": 1.0,
+    "custo": 1169.26,
+    "venda": 1200.0
+  },
+  "Redmi Note 14 5G 8GB RAM 256GB Verde": {
+    "chave": "Redmi Note 14 5G 8GB RAM 256GB Verde",
+    "nome": "Redmi Note 14 5G 8GB RAM 256GB Verde",
+    "estoque": 6.0,
+    "custo": 1169.26,
+    "venda": 1200.0
+  },
+  "Redmi Note 14S 12GB RAM 512GB Preto": {
+    "chave": "Redmi Note 14S 12GB RAM 512GB Preto",
+    "nome": "Redmi Note 14S 12GB RAM 512GB Preto",
+    "estoque": 2.0,
+    "custo": 1390.0,
+    "venda": 1450.0
+  },
+  "Redmi Note 15 6GB RAM 128GB Preto": {
+    "chave": "Redmi Note 15 6GB RAM 128GB Preto",
+    "nome": "Redmi Note 15 6GB RAM 128GB Preto",
+    "estoque": 0.0,
+    "custo": 1022.85,
+    "venda": 1150.0
+  },
+  "Redmi Note 15 8GB RAM 256GB Preto": {
+    "chave": "Redmi Note 15 8GB RAM 256GB Preto",
+    "nome": "Redmi Note 15 8GB RAM 256GB Preto",
+    "estoque": 3.0,
+    "custo": 1171.45,
+    "venda": 1100.0
+  },
+  "Redmi Note 15 8GB RAM 256GB Azul": {
+    "chave": "Redmi Note 15 8GB RAM 256GB Azul",
+    "nome": "Redmi Note 15 8GB RAM 256GB Azul",
+    "estoque": 2.0,
+    "custo": 1171.45,
+    "venda": 1100.0
+  },
+  "Redmi Note 15 Pro 5G 8GB RAM 256GB Preto": {
+    "chave": "Redmi Note 15 Pro 5G 8GB RAM 256GB Preto",
+    "nome": "Redmi Note 15 Pro 5G 8GB RAM 256GB Preto",
+    "estoque": 2.0,
+    "custo": 1641.97,
+    "venda": 1700.0
+  },
+  "Redmi Note 15 Pro 5G 8GB RAM 512GB Preto": {
+    "chave": "Redmi Note 15 Pro 5G 8GB RAM 512GB Preto",
+    "nome": "Redmi Note 15 Pro 5G 8GB RAM 512GB Preto",
+    "estoque": 1.0,
+    "custo": 2024.54,
+    "venda": 2000.0
+  },
+  "Redmi Pad 2 4G 4GB RAM 128GB c/ Chip Cinza Claro": {
+    "chave": "Redmi Pad 2 4G 4GB RAM 128GB c/ Chip Cinza Claro",
+    "nome": "Redmi Pad 2 4G 4GB RAM 128GB c/ Chip Cinza Claro",
+    "estoque": 0.0,
+    "custo": 1010.69,
+    "venda": 1100.0
+  },
+  "Redmi Pad 2 4GB RAM 128 GB Cinza": {
+    "chave": "Redmi Pad 2 4GB RAM 128 GB Cinza",
+    "nome": "Redmi Pad 2 4GB RAM 128 GB Cinza",
+    "estoque": 2.0,
+    "custo": 917.79,
+    "venda": 990.0
+  },
+  "Redmi Pad 2 4GB RAM 128 GB Verde": {
+    "chave": "Redmi Pad 2 4GB RAM 128 GB Verde",
+    "nome": "Redmi Pad 2 4GB RAM 128 GB Verde",
+    "estoque": 4.0,
+    "custo": 917.79,
+    "venda": 990.0
+  },
+  "Redmi Pad 2 4GB RAM 128 GB Púrpura": {
+    "chave": "Redmi Pad 2 4GB RAM 128 GB Púrpura",
+    "nome": "Redmi Pad 2 4GB RAM 128 GB Púrpura",
+    "estoque": 0.0,
+    "custo": 917.79,
+    "venda": 990.0
+  },
+  "Redmi Pad 2 8GB RAM 256GB Verde": {
+    "chave": "Redmi Pad 2 8GB RAM 256GB Verde",
+    "nome": "Redmi Pad 2 8GB RAM 256GB Verde",
+    "estoque": 3.0,
+    "custo": 1181.17,
+    "venda": 1240.0
+  },
+  "Redmi Pad 2 8GB RAM 256GB Cinza": {
+    "chave": "Redmi Pad 2 8GB RAM 256GB Cinza",
+    "nome": "Redmi Pad 2 8GB RAM 256GB Cinza",
+    "estoque": 5.0,
+    "custo": 1181.17,
+    "venda": 1240.0
+  },
+  "Redmi Pad 2 Pro 6GB RAM 128 GB Prata": {
+    "chave": "Redmi Pad 2 Pro 6GB RAM 128 GB Prata",
+    "nome": "Redmi Pad 2 Pro 6GB RAM 128 GB Prata",
+    "estoque": 1.0,
+    "custo": 1356.58,
+    "venda": 1530.0
+  },
+  "Redmi Pad 2 Pro 6GB RAM 128 GB Cinza": {
+    "chave": "Redmi Pad 2 Pro 6GB RAM 128 GB Cinza",
+    "nome": "Redmi Pad 2 Pro 6GB RAM 128 GB Cinza",
+    "estoque": 3.0,
+    "custo": 1356.58,
+    "venda": 1530.0
+  },
+  "Redmi Pad 2 Pro 8GB RAM 256GB Prata": {
+    "chave": "Redmi Pad 2 Pro 8GB RAM 256GB Prata",
+    "nome": "Redmi Pad 2 Pro 8GB RAM 256GB Prata",
+    "estoque": 0.0,
+    "custo": 1747.1,
+    "venda": 1950.0
+  },
+  "Redmi Pad SE 4G 4GB RAM 128GB c/ Chip Azul": {
+    "chave": "Redmi Pad SE 4G 4GB RAM 128GB c/ Chip Azul",
+    "nome": "Redmi Pad SE 4G 4GB RAM 128GB c/ Chip Azul",
+    "estoque": 2.0,
+    "custo": 753.27,
+    "venda": 1050.0
+  },
+  "Redmi Pad SE 4G 4GB RAM 128GB c/ Chip Verde": {
+    "chave": "Redmi Pad SE 4G 4GB RAM 128GB c/ Chip Verde",
+    "nome": "Redmi Pad SE 4G 4GB RAM 128GB c/ Chip Verde",
+    "estoque": 2.0,
+    "custo": 753.27,
+    "venda": 1050.0
+  }
+}

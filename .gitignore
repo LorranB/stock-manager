@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Env
+venv/
+.env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Outputs gerados
+output/
+historico_precos/
+*.xlsx
+*.pdf
+*.txt
+
+# Selenium
+ms-playwright/
+
+# VSCode
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
