@@ -408,26 +408,6 @@ frame_botoes.pack(
 )
 
 
-tk.Button(
-
-    frame_botoes,
-
-    text="Relatório",
-
-    command=lambda: abrir_arquivo(
-        "relatorio_precificacao.txt"
-    ),
-
-    bg="#81C784",
-
-    fg="white"
-
-).grid(
-    row=0,
-    column=0,
-    padx=5
-)
-
 
 tk.Button(
 
