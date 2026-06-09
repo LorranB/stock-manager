@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 def gerar_relatorio(
@@ -5,6 +6,11 @@ def gerar_relatorio(
     nao_encontrados,
     sem_oferta_centro
 ):
+
+    os.makedirs(
+        "output",
+        exist_ok=True
+    )
 
     with open(
         "output/relatorio_precificacao.txt",

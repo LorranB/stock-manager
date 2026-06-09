@@ -12,6 +12,10 @@ def salvar_historico(relatorio):
         ARQUIVO
     )
 
+    os.makedirs(
+        "output",
+        exist_ok=True
+    )
     with open(
 
         ARQUIVO,

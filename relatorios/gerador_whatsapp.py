@@ -1,3 +1,4 @@
+import os
 from collections import defaultdict
 from datetime import datetime
 
@@ -45,6 +46,7 @@ def definir_categoria(nome):
 
 def gerar_lista(produtos):
 
+    
     grupos = defaultdict(
         lambda: {
             "cores": set(),
@@ -243,6 +245,12 @@ def salvar_lista_whatsapp(
 
     texto = gerar_lista(
         produtos_finais
+    )
+
+    
+    os.makedirs(
+        "output",
+        exist_ok=True
     )
 
     with open(

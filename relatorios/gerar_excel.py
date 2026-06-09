@@ -1,8 +1,14 @@
+import os
 from openpyxl import Workbook
 from datetime import datetime
 
 
 def gerar_excel(relatorio):
+    
+    os.makedirs(
+        "output",
+        exist_ok=True
+    )
 
     wb = Workbook()
 
