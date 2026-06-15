@@ -13,10 +13,9 @@ def normalizar(texto):
         .replace("-", "")
     )
 
-
 def extrair_modelo(nome):
 
-    nome = normalizar(nome)
+    nome = nome.upper()
 
     partes = nome.split()
 
@@ -24,42 +23,39 @@ def extrair_modelo(nome):
 
     for parte in partes:
 
+        if "/" in parte:
+            break
+
         if "GB" in parte:
             break
 
-        modelo.append(parte)
+        modelo.append(
+            normalizar(parte)
+        )
 
-    return "".join(modelo)
+    modelo_final = "".join(modelo)
 
-def extrair_modelo_titulo(titulo):
+    print("EXTRAINDO:", nome)
+    print("MODELO EXTRAIDO:", modelo_final)
 
-    titulo = normalizar(titulo)
-
-    titulo = titulo.replace(
-        "POCO(BYXIAOMI)/",
-        "POCO"
-    )
-
-    titulo = titulo.replace(
-        "XIAOMI(MI)/",
-        ""
-    )
-
-    return titulo
+    return modelo_final
 
 def produto_compativel(nome_estoque, titulo_boadica):
 
     estoque = normalizar(nome_estoque)
     titulo = normalizar(titulo_boadica)
 
-    # Extrai RAM e armazenamento do estoque
-    partes = estoque.split("/")
+    # Extrai armazenamento e RAM diretamente do nome do estoque
+    memorias = re.findall(
+        r'(\d+)GB',
+        nome_estoque.upper()
+    )
 
-    if len(partes) < 2:
+    if len(memorias) < 2:
         return False
 
-    armazenamento = partes[0][-5:]  # ex: 256GB
-    ram = partes[1][:3]             # ex: 8GB
+    armazenamento = memorias[0] + "GB"
+    ram = memorias[1] + "GB"
 
     if armazenamento not in titulo:
         return False
@@ -67,23 +63,25 @@ def produto_compativel(nome_estoque, titulo_boadica):
     if ram not in titulo:
         return False
 
-    # Verifica PRO
-    # PRO MAX
-
+    # Verifica PRO MAX
     if "PROMAX" in estoque:
 
         if "PROMAX" not in titulo:
             return False
+
     else:
+
         if "PROMAX" in titulo:
             return False
-    # PRO
 
+    # Verifica PRO
     if "PRO" in estoque:
 
         if "PRO" not in titulo:
             return False
+
     else:
+
         if "PRO" in titulo:
             return False
 
@@ -91,26 +89,75 @@ def produto_compativel(nome_estoque, titulo_boadica):
     if "5G" in estoque and "5G" not in titulo:
         return False
 
-
     # Verifica modelo
-
     modelo_estoque = extrair_modelo(
-    nome_estoque
+        nome_estoque
     )
+
     print("MODELO ESTOQUE:", modelo_estoque)
     print("TITULO:", titulo)
-    if modelo_estoque not in titulo:
-        return False
+    print("ARMAZENAMENTO:", armazenamento)
+    print("RAM:", ram)
 
-        print(
-        "MODELO:",
-        modelo_estoque
-    )
+    # REDMI PAD 2
+    if modelo_estoque.startswith("REDMIPAD2") and "PRO" not in modelo_estoque:
+
+        if "PADSE" in titulo:
+            return False
+
+        if "PAD2PRO" in titulo:
+            return False
+
+        if "REDMIPAD2" not in titulo:
+            return False
+
+
+    # REDMI PAD 2 PRO
+    elif "REDMIPAD2PRO" in modelo_estoque:
+
+        if "REDMIPAD2PRO" not in titulo:
+            return False
+
+
+    # REDMI PAD SE
+    elif modelo_estoque.startswith("REDMIPADSE"):
+
+        if "REDMIPADSE" not in titulo:
+            return False
+
+
+    else:
+
+        titulo_limpo = titulo
+
+        titulo_limpo = titulo_limpo.replace(
+            "POCO(BYXIAOMI)/POCO",
+            "POCO"
+        )
+
+        titulo_limpo = titulo_limpo.replace(
+            "POCO(BYXIAOMI)/",
+            "POCO"
+        )
+
+        titulo_limpo = titulo_limpo.replace(
+            "REALME/",
+            "REALME"
+        )
+
+        titulo_limpo = titulo_limpo.replace(
+            "XIAOMI(MI)/",
+            ""
+        )
+
+        if modelo_estoque not in titulo_limpo:
+            return False
+
     return True
 
 
 def buscar_produto(driver, nome_produto):
-
+    
     termo = nome_produto.replace(
         " ",
         "%20"
