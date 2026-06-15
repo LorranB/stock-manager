@@ -7,6 +7,30 @@ def gerar_relatorio(
     sem_oferta_centro
 ):
 
+    # Remove produtos duplicados
+    relatorio_unico = []
+    vistos = set()
+
+    for item in relatorio:
+
+        produto = item["produto"]
+
+        if produto not in vistos:
+
+            vistos.add(produto)
+
+            relatorio_unico.append(item)
+
+    relatorio = relatorio_unico
+
+    nao_encontrados = list(
+        dict.fromkeys(nao_encontrados)
+    )
+
+    sem_oferta_centro = list(
+        dict.fromkeys(sem_oferta_centro)
+    )
+
     os.makedirs(
         "output",
         exist_ok=True
