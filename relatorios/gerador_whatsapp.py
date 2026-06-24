@@ -122,13 +122,6 @@ def gerar_lista(produtos):
         "📌 RETIRADA CENTRO RJ"
     )
 
-    linhas.append(
-        "🚚 Entregamos para todo Brasil"
-    )
-
-    linhas.append(
-        "💳 Parcelamento disponível"
-    )
 
     ordem = [
         ("TABLETS", "📱 Tablets"),

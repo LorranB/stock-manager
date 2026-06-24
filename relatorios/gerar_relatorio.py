@@ -147,6 +147,20 @@ def gerar_relatorio(
                 f"Lucro: "
                 f"R${item['lucro']:.2f}\n"
             )
+
+            margem = 0
+
+            if item["preco_sugerido"] > 0:
+                margem = (
+                    item["lucro"] /
+                    item["preco_sugerido"]
+                ) * 100
+
+            f.write(
+                f"Margem: "
+                f"{margem:.2f}%\n"
+            )
+            
             if item["preco_sugerido"] > item["preco_atual"]:
 
                 acao = (
